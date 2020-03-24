@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.sellchometz">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Mechiras Chometz"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="My Info" />
+        <activity android:name=".AddShuls" />
+        <activity
+            android:name=".Places"
+            android:label="Places to sell" />
+        <activity
+            android:name=".More"
+            android:label="Additional locations other than your home" />
+        <activity android:name=".Display" />
+
+        <provider
+            android:name=".data.ChometzProvider"
+            android:authorities="com.example.android.sellchometz"
+            android:exported="false" />
+        <provider
+            android:name=".data.ShulProvider"
+            android:authorities="com.example.android.sellchom"
+            android:exported="false" />
+
+        <activity
+            android:name=".Price"
+            android:label="More info" />
+        <activity
+            android:name=".ChometzProducts"
+            android:label="Chometz Products" />
+        <activity
+            android:name=".Places2"
+            android:label="Places to sell" />
+        <activity android:name=".WelcomeBack" />
+        <activity
+            android:name=".ShulSignIn"
+            android:label="Shul Sign In" />
+        <activity android:name=".Restart" />
+        <activity android:name=".Display2"></activity>
+    </application>
+
+</manifest>

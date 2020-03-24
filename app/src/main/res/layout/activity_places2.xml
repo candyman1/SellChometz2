@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_places2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+    android:orientation="vertical"
+    tools:context="com.example.android.sellchometz.Places2">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:id="@+id/myI"
+            android:text="My Info"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_weight="1"
+            android:text="Places"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:layout_weight="1"
+            android:text="More Places"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:layout_weight="1"
+            android:text="Products"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/gray"
+            android:layout_weight="1"
+            android:text="More Info"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/find_places"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <CheckBox
+            android:id="@+id/attic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:textSize="24sp"
+            android:text="Attic"/>
+            <CheckBox
+            android:id="@+id/basement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:textSize="24sp"
+            android:text="Basement"/>
+            <CheckBox
+            android:id="@+id/bathcab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:textSize="24sp"
+            android:text="Bathroom cabinet"/>
+            <CheckBox
+            android:id="@+id/breakfront"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:textSize="24sp"
+            android:text="Breakfront"/>
+            <CheckBox
+                android:id="@+id/briefcase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="Briefcases"/>
+            <CheckBox
+                android:id="@+id/closet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="Closet"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <CheckBox
+                android:id="@+id/crawlspace"
+                android:layout_width="wrap_content"
+                android:textSize="24sp"
+                android:layout_height="wrap_content"
+                android:text="Crawlspace"/>
+            <CheckBox
+                android:id="@+id/desk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="Desk drawers"/>
+            <CheckBox
+                android:id="@+id/freezer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="Freezer"/>
+
+            <CheckBox
+            android:id="@+id/garage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:textSize="24sp"
+            android:text="Garage"/>
+            <CheckBox
+                android:id="@+id/grill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="Grill"/>
+            <CheckBox
+                android:id="@+id/kitchenCab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="Kitchen cabinets"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/liquorCab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="Liquor cabinet"/>
+            <CheckBox
+                android:id="@+id/medicineChest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="Medicine chest"/>
+            <CheckBox
+                android:id="@+id/pantry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="Pantry"/>
+                <CheckBox
+                android:id="@+id/fridge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                android:text="Refrigerator"/>
+            <CheckBox
+                android:id="@+id/shed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="Shed"/>
+            <CheckBox
+                android:id="@+id/storage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="Storage area"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingRight="12dp"
+            android:text="Other"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_style"
+            android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/otherEdit"
+            android:background="@null"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="4dp"
+            android:textSize="24sp"
+            android:layout_width="430dp"
+            android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:src="@drawable/text_field_clear_btn"
+                />
+    </FrameLayout>
+
+</LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/more_places"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="end"
+            android:layout_marginRight="16dp"
+
+            android:src="@drawable/ic_arrow_forward_black_24dp"
+            app:elevation="6dp"
+            app:fabSize="normal"
+            app:pressedTranslationZ="12dp"
+
+            ></android.support.design.widget.FloatingActionButton>
+    </LinearLayout>
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</ScrollView>
+
+
+

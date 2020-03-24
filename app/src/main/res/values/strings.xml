@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SellChometz</string>
+    <string name="types_of_chometz">The chometz may
+    consist of among other things:</string>
+
+    <!-- Toast message in editor when new pet has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_info_successful">Saved</string>
+
+    <!-- Toast message in editor when new pet has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_info_failed">Error with saving</string>
+    <string name="match_found">Match found</string>
+    <string name="match_not_found">Match not found</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="find_places">The chometz on my property can be found primarily in these places:</string>
+    <string name="action_settings">Settings</string>
+    <string name="more_places">For chometz at another location go to the next page</string>
+    <string name="whole_thing">I will be doing a bedikah on my entire premises.</string>
+    <string name="almost_all">I would like to exclude the following area(s): </string>
+    <string name="just_these">I will only be doing a bedikah in the following places: </string>
+</resources>

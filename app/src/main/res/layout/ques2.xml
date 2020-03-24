@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_style"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="8dp"
+        android:textSize="28sp"
+        android:textColor="@color/red"
+        android:text="Preferably choose the first option to do a Bedika on your entire premises. If that is not possible and you'd like to rent some areas to a Goy for the entire Pesach, then chose one of the next two options."
+        />
+</LinearLayout>

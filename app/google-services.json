@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "573078887604",
+    "firebase_url": "https://sellchometz.firebaseio.com",
+    "project_id": "sellchometz",
+    "storage_bucket": "sellchometz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573078887604:android:f5f0b5843afa3f14",
+        "android_client_info": {
+          "package_name": "com.example.android.sellchometz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573078887604-tjji2t5bgmu32tqhdjsmevs858aggqu2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.sellchometz",
+            "certificate_hash": "280ecc247ec8836b33bac600c0a22f44864cac5a"
+          }
+        },
+        {
+          "client_id": "573078887604-mjntpr5c2a4bhg4k7bbrpnseo2r6e5jc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALPN5VVGcYhieJBz37NMEL9tqUTrp3tCE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573078887604-mjntpr5c2a4bhg4k7bbrpnseo2r6e5jc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
